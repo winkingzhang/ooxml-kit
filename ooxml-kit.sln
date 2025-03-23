@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{59E675FB-E658-4924-8F67-3EF7F96281B6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31C9776A-233F-4DF6-8116-03A82C1643BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{51C39023-0EE6-412C-A1FE-2B798680D08D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{8D1D81E7-E195-4ED9-97BF-5332E8E17FB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spec", "spec", "{9F116380-F541-4840-A220-58030FEEB5D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opc", "opc", "{B3C87895-2788-411A-9DBC-5646987EF00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ooxml", "ooxml", "{BAD61F73-2F0C-4A22-AB51-F6073B6E3983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ooxml.opc", "src\opc\ooxml.opc\ooxml.opc.csproj", "{08DAD3FC-72B0-43A9-A1C1-A102870FE832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ooxml.zip", "src\opc\ooxml.zip\ooxml.zip.csproj", "{3FC3567E-B022-4383-B63D-60C981FD1BC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3C87895-2788-411A-9DBC-5646987EF00A} = {31C9776A-233F-4DF6-8116-03A82C1643BA}
+		{BAD61F73-2F0C-4A22-AB51-F6073B6E3983} = {31C9776A-233F-4DF6-8116-03A82C1643BA}
+		{08DAD3FC-72B0-43A9-A1C1-A102870FE832} = {B3C87895-2788-411A-9DBC-5646987EF00A}
+		{3FC3567E-B022-4383-B63D-60C981FD1BC8} = {B3C87895-2788-411A-9DBC-5646987EF00A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08DAD3FC-72B0-43A9-A1C1-A102870FE832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DAD3FC-72B0-43A9-A1C1-A102870FE832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DAD3FC-72B0-43A9-A1C1-A102870FE832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DAD3FC-72B0-43A9-A1C1-A102870FE832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC3567E-B022-4383-B63D-60C981FD1BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC3567E-B022-4383-B63D-60C981FD1BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC3567E-B022-4383-B63D-60C981FD1BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC3567E-B022-4383-B63D-60C981FD1BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
